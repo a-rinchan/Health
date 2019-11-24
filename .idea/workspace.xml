@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fce86b21-b051-4b1e-a54d-9c69e3783e17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/dictionaries/a_rin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidTextBook/RecyclerView/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FeelingHealth/app/src/main/java/com/a_rin/feelinghealth/InputActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FeelingHealth/app/src/main/res/layout/activity_input.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/a_rin/health/ItemData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/a_rin/health/RecyclerViewAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/a_rin/health/RecyclerViewHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/no1_face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/no2_face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/no3_face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/no4_face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/no5_face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/recycler_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin勉強会/app/src/main/java/com/a_rin/gridrecyclerview/RecyclerViewAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin勉強会/app/src/main/java/com/a_rin/gridrecyclerview/RecyclerViewHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin勉強会/app/src/main/res/layout/gridview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTextBook/RecyclerView/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTextBook/RecyclerView/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTextBook/RecyclerView/app/src/main/java/com/a_rin/recyclerview/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTextBook/RecyclerView/app/src/main/java/com/a_rin/recyclerview/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Intern Product/abemahack-native-201909-android" beforeDir="false" afterPath="$PROJECT_DIR$/../Intern Product/abemahack-native-201909-android" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/androidTest/java/com/a_rin/count/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/java/com/a_rin/count/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/app/src/test/java/com/a_rin/count/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/Count/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/androidTest/java/com/a_rin/countapp/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/java/com/a_rin/countapp/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/app/src/test/java/com/a_rin/countapp/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin勉強会/CountApp/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/androidTest/java/com/android/lifeistech/count/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/java/com/android/lifeistech/count/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/app/src/test/java/com/android/lifeistech/count/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Count/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/java/com/lifeistech/camp/dasshutsu/ClearActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/java/com/lifeistech/camp/dasshutsu/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/java/com/lifeistech/camp/dasshutsu/Stage2Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/drawable/door1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/drawable/door2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/drawable/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/layout/activity_clear.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/layout/activity_stage2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Dasshutsu/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/java/com/lifeistech/camp/decopic/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/drawable/stamp0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/drawable/stamp1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/drawable/stamp2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/drawable/stamp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/DecoPic/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/androidTest/java/com/android/lifeistech/janken/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/java/com/android/lifeistech/janken/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/drawable/choki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/drawable/goo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/drawable/paa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/app/src/test/java/com/android/lifeistech/janken/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Janken/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/java/com/lifeistech/camp/litclock/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/java/com/lifeistech/camp/litclock/SplashActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/drawable/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/layout/activity_splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/colon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/eight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/five.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/four.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/haikei.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/nine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/seven.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/six.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/three.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/two.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xhdpi/zero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xxhdpi/litechback.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/LitClock/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/java/com/lifeistech/camp/newtechdragon/AttackAnimation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/java/com/lifeistech/camp/newtechdragon/BattleActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/java/com/lifeistech/camp/newtechdragon/FirstActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/drawable/bgimage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/drawable/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/drawable/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/drawable/falcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/drawable/haikei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/drawable/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/drawable/lobby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/layout/activity_battle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/layout/activity_first.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/NewTechDragon/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/java/com/lifeistech/camp/quiz/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/java/com/lifeistech/camp/quiz/ResultActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/java/com/lifeistech/camp/quiz/StartActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/drawable/japan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/layout/activity_result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/layout/activity_start.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/Quiz/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/androidTest/java/com/android/lifeistech/tapamole/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/java/com/android/lifeistech/tapamole/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/java/com/android/lifeistech/tapamole/Mole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/drawable/banana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/drawable/cherry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/drawable/peach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/app/src/test/java/com/android/lifeistech/tapamole/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapAMole/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/androidTest/java/com/android/lifeistech/tapnumber/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/java/com/android/lifeistech/tapnumber/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/app/src/test/java/com/android/lifeistech/tapnumber/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TapNumber/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/java/com/lifeistech/camp/techdragon/AttackAnimation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/java/com/lifeistech/camp/techdragon/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/java/com/lifeistech/camp/techdragon/infoActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/drawable/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/drawable/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/drawable/haikei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/layout/activity_info.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TechDragon/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/androidTest/java/com/android/lifeistech/tictactoe/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/java/com/android/lifeistech/tictactoe/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/app/src/test/java/com/android/lifeistech/tictactoe/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Life is Tech Camp Text/TicTacToe/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Album" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/.idea/dictionaries/a_rin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/androidTest/java/com/a_rin/count/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/java/com/a_rin/count/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/app/src/test/java/com/a_rin/count/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Count/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Profile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MozerAndroid/Sound" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerView/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerView/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/androidTest/java/com/a_rin/shuapp/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/java/com/a_rin/shuapp/EndActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/java/com/a_rin/shuapp/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/layout/activity_end.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/app/src/test/java/com/a_rin/shuapp/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShuApp/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_28" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Health" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a_rin/health/MainActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a_rin/health/InputActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="148" column="4" lean-forward="true" selection-start-line="148" selection-start-column="4" selection-end-line="151" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a_rin/health/ItemData.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="e#26#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a_rin/health/RecyclerViewHolder.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+              <folding>
+                <element signature="e#26#99#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a_rin/health/RecyclerViewAdapter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/a_rin/health/RecyclerViewHolder.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/recycler_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_input.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/a_rin/health/ItemData.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/a_rin/health/InputActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/a_rin/health/RecyclerViewAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/a_rin/health/MainActivity.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_getkeepsafe_relinker_relinker_1_3_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_android_kotlin_extensions_5_9_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_android_library_5_9_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_annotations_5_9_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_getkeepsafe_relinker_relinker_1_3_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_android_kotlin_extensions_5_9_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_android_library_5_9_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_annotations_5_9_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_3_50_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_50_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Health" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Health" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Health" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="health" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Health" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Health" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Health" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Health" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Health" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fce86b21-b051-4b1e-a54d-9c69e3783e17" name="Default Changelist" comment="" />
+      <created>1574072625313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574072625313</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2553648" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.4985694" weight="0.8301205" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50143063" side_tool="true" weight="0.8301205" />
+      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.49928468" weight="0.3253012" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.3297568" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.3297568" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/recycler_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a_rin/health/ItemData.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#26#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a_rin/health/RecyclerViewHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+          <folding>
+            <element signature="e#26#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_input.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="120" column="27" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a_rin/health/RecyclerViewAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a_rin/health/InputActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="148" column="4" lean-forward="true" selection-start-line="148" selection-start-column="4" selection-end-line="151" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/a_rin/health/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

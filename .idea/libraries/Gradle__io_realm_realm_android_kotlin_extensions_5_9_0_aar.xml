@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: io.realm:realm-android-kotlin-extensions:5.9.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e9e0f12c551bc4be5d4910304daf5cb1/realm-android-kotlin-extensions-5.9.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e9e0f12c551bc4be5d4910304daf5cb1/realm-android-kotlin-extensions-5.9.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-kotlin-extensions/5.9.0/b065afe8f7c258479debeb9cf4398d9912a32d7f/realm-android-kotlin-extensions-5.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-kotlin-extensions/5.9.0/760b67d3c9dfc0cdab04af90d4823ffe7b3fb4d1/realm-android-kotlin-extensions-5.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Health</string>
+    <string name="lucky_text">今日いいことあった?</string>
+    <string name="satiety_text">ご飯の満足度は?</string>
+    <string name="fitness_text">運動した?</string>
+    <string name="sleep_text">よく寝れた?</string>
+</resources>
