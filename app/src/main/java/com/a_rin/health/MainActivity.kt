@@ -20,14 +20,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Realm.init(this)
         realm = Realm.getDefaultInstance()
         val realmResults = realm?.where(ItemData::class.java)?.findAll()
 
-        Log.d("realmResult", realmResults.toString())
-
-        recyclerView.layoutManager = GridLayoutManager(this, 2)
-        recyclerView.adapter = realmResults?.let { RecyclerViewAdapter(this, it) }
+        recyclerView.layoutManager = GridLayoutManager(this, 4)
+        recyclerView.adapter = realmResults?.let { RecyclerViewAdapter(this, it, autoUpdate = true) }
 
         calendar = Calendar.getInstance()
         val day = calendar.get(Calendar.DAY_OF_MONTH)

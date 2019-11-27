@@ -7,6 +7,7 @@ import android.widget.SeekBar
 import io.realm.Realm
 import kotlinx.android.synthetic.main.activity_input.*
 import java.text.SimpleDateFormat
+import java.util.*
 
 const val seekbarAmount = 4
 const val seekbarInitialValue = 1
@@ -24,7 +25,6 @@ class InputActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_input)
 
-        Realm.init(this)
         realm = Realm.getDefaultInstance()
 
         val intent = getIntent()
@@ -118,6 +118,10 @@ class InputActivity : AppCompatActivity() {
             finish()
         }
 
+        cancelButton.setOnClickListener {
+            finish()
+        }
+
     }
 
     fun SeekbarInitialization(seekbar : SeekBar) {
@@ -133,7 +137,7 @@ class InputActivity : AppCompatActivity() {
         val average = (luckyValue + satietyValue + fitnessValue + sleepValue) / seekbarAmount
 
         realm?.executeTransaction{
-            var itemData : ItemData = it.createObject(ItemData::class.java)
+            var itemData : ItemData = it.createObject(ItemData::class.java, UUID.randomUUID().toString())
             itemData.year = inputYear
             itemData.month = inputMonth
             itemData.day = inputDay
@@ -142,8 +146,8 @@ class InputActivity : AppCompatActivity() {
             itemData.fitness = fitnessValue
             itemData.sleep = sleepValue
             itemData.average = average
+            it.copyToRealm(itemData)
         }
-
     }
 
     override fun onDestroy() {

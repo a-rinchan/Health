@@ -11,13 +11,17 @@
         android:id="@+id/getDateText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
         android:text="取得した日付"
-        android:textSize="24sp"
         android:textColor="@color/textColor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 
     <LinearLayout
@@ -25,13 +29,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="32dp"
         android:layout_marginEnd="40dp"
-        android:paddingTop="32dp"
-        android:paddingBottom="32dp"
         android:background="@android:color/white"
         android:orientation="vertical"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/cancelButton"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/getDateText">
 
@@ -39,95 +44,105 @@
             android:id="@+id/luckyText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginEnd="80dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
             android:text="@string/lucky_text"
-            android:textColor="@color/textColor" />
+            android:textColor="@color/textColor"
+            android:textSize="12sp" />
 
         <SeekBar
             android:id="@+id/LuckySeekbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="80dp"
-            android:minHeight="5dp"
-            android:maxHeight="5dp"/>
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="40dp"
+            android:minHeight="8dp" />
 
         <TextView
             android:id="@+id/satietyText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="80dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="40dp"
             android:text="@string/satiety_text"
-            android:textColor="@color/textColor" />
+            android:textColor="@color/textColor"
+            android:textSize="12sp" />
 
         <SeekBar
             android:id="@+id/SatietySeekbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="80dp" />
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="40dp" />
 
         <TextView
             android:id="@+id/fitnessText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="80dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="40dp"
             android:text="@string/fitness_text"
-            android:textColor="@color/textColor" />
+            android:textColor="@color/textColor"
+            android:textSize="12sp" />
 
         <SeekBar
             android:id="@+id/FitnessSeekbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="80dp" />
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="40dp" />
 
         <TextView
             android:id="@+id/sleepText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="80dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="40dp"
             android:text="@string/sleep_text"
-            android:textColor="@color/textColor" />
+            android:textColor="@color/textColor"
+            android:textSize="12sp" />
 
         <SeekBar
             android:id="@+id/SleepSeekbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="80dp" />
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="40dp" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/CancelButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+    <ImageButton
+        android:id="@+id/cancelButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/close_button"
+        android:src="@drawable/round_close"
+        android:text="キャンセル"
+        android:textColor="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/saveButton"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        android:text="キャンセル" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
-    <Button
+    <ImageButton
         android:id="@+id/saveButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        app:layout_constraintBottom_toBottomOf="@id/CancelButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/done_button"
+        android:fontFamily="@fonts/notosans_bold"
+        android:src="@drawable/round_done"
+        android:text="完了"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@id/cancelButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/CancelButton"
-        android:text="完了" />
+        app:layout_constraintStart_toEndOf="@id/cancelButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

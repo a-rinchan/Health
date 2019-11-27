@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="150dp"
-    android:layout_height="match_parent"
-    android:background="@color/listColor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="8dp"
+    android:background="@drawable/item_round"
     android:orientation="vertical"
     android:paddingLeft="15dp"
     android:paddingTop="10dp"
@@ -12,8 +14,8 @@
 
     <ImageView
         android:id="@+id/faceImageView"
-        android:layout_width="100dp"
-        android:layout_height="110dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
         app:srcCompat="@drawable/no1_face" />
 
@@ -22,12 +24,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="2019/12/1" />
+        android:text="2019/12/1"
+        android:textSize="8sp" />
 
     <TextView
         android:id="@+id/messageTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Fantastic!" />
+        android:text="Fantastic!"
+        android:textSize="8sp" />
 </LinearLayout>

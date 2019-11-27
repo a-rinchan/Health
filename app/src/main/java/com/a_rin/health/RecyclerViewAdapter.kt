@@ -5,9 +5,10 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import io.realm.OrderedRealmCollection
+import io.realm.RealmRecyclerViewAdapter
 import java.util.*
 
-class RecyclerViewAdapter(private val context: Context, private val objects: OrderedRealmCollection<ItemData>) : RecyclerView.Adapter<RecyclerViewHolder>() {
+class RecyclerViewAdapter(private val context: Context, private val objects: OrderedRealmCollection<ItemData>, private val autoUpdate: Boolean) : RealmRecyclerViewAdapter<ItemData, RecyclerViewHolder>(objects, autoUpdate) {
 
     private val inflater = LayoutInflater.from(context)
 
