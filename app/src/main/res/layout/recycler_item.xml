@@ -7,30 +7,30 @@
     android:layout_margin="8dp"
     android:background="@drawable/item_round"
     android:orientation="vertical"
-    android:paddingLeft="15dp"
+    android:paddingLeft="8dp"
     android:paddingTop="10dp"
-    android:paddingRight="15dp"
+    android:paddingRight="8dp"
     android:paddingBottom="10dp">
 
     <ImageView
         android:id="@+id/faceImageView"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
         android:layout_gravity="center"
         app:srcCompat="@drawable/no1_face" />
 
     <TextView
         android:id="@+id/dateTextView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="2019/12/1"
+        android:text="2019/12/17"
         android:textSize="8sp" />
 
     <TextView
         android:id="@+id/messageTextView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="32dp"
         android:gravity="center"
         android:text="Fantastic!"
         android:textSize="8sp" />

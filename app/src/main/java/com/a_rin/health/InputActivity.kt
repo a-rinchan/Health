@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 const val seekbarAmount = 4
-const val seekbarInitialValue = 1
+const val seekbarInitialValue = 0
 
 class InputActivity : AppCompatActivity() {
 
