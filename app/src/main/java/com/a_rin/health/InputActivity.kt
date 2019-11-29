@@ -116,10 +116,12 @@ class InputActivity : AppCompatActivity() {
         saveButton.setOnClickListener {
             saveRealm(inputYear, inputMonth, inputDay, luckValue, satietyValue, fitnessValue, sleepValue)
             finish()
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }
 
         cancelButton.setOnClickListener {
             finish()
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         }
 
     }

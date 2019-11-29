@@ -6,4 +6,5 @@
     <color name="backColor">#F9F6F2</color>
     <color name="textColor">#593E1A</color>
     <color name="listColor">#F6E2C8</color>
+    <color name="splash">#A8C666</color>
 </resources>

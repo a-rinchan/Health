@@ -5,6 +5,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Adapter
+import android.widget.ArrayAdapter
+import android.widget.Spinner
 import androidx.recyclerview.widget.GridLayoutManager
 import io.realm.Realm
 import io.realm.RealmResults
@@ -46,12 +49,28 @@ class MainActivity : AppCompatActivity() {
                     intent.putExtra("MONTH_KEY", mMonth + 1)
                     intent.putExtra("YEAR_KEY", mYear)
                     startActivity(intent)
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
                 }, year, month, day
             )
             dialog.show()
 
         }
 
+        //検索スピナーの設置
+        val yearSpinner : Spinner = findViewById(R.id.yearSpinner)
+        val monthSpinner : Spinner = findViewById(R.id.monthSpinner)
+
+        ArrayAdapter.createFromResource(this, R.array.year_array, android.R.layout.simple_spinner_item)
+            .also { adapter ->
+                adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+                yearSpinner.adapter = adapter
+            }
+
+        ArrayAdapter.createFromResource(this, R.array.month_array, android.R.layout.simple_spinner_item)
+            .also { adapter ->
+                adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+                monthSpinner.adapter = adapter
+            }
     }
 
     override fun onDestroy() {
