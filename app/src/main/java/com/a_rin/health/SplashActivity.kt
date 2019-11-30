@@ -22,11 +22,9 @@ class SplashActivity : AppCompatActivity() {
 
     internal inner class splashHandler : Runnable {
         override fun run() {
-            // スプラッシュ完了後に実行するActivityを指定します。
             val intent = Intent(application, MainActivity::class.java)
             startActivity(intent)
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
-            // SplashActivityを終了させます。
             this@SplashActivity.finish()
         }
     }

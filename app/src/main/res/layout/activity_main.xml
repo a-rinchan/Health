@@ -37,7 +37,7 @@
             android:paddingRight="8dp" />
 
         <ImageButton
-            android:id="@+id/serchButton"
+            android:id="@+id/searchButton"
             android:layout_width="match_parent"
             android:layout_height="32dp"
             android:layout_weight="1.5"

@@ -5,16 +5,20 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Adapter
+import android.view.View
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import android.widget.Spinner
 import androidx.recyclerview.widget.GridLayoutManager
 import io.realm.Realm
-import io.realm.RealmResults
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
+
 class MainActivity : AppCompatActivity() {
+
+    //spinnerの初期値
+    var spinnerYear : Int? = null
+    var spinnerMonth : Int? = null
 
     private var realm : Realm ?= null
     lateinit var calendar : Calendar
@@ -23,21 +27,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        realm = Realm.getDefaultInstance()
-        val realmResults = realm?.where(ItemData::class.java)?.findAll()
-
-        recyclerView.layoutManager = GridLayoutManager(this, 4)
-        recyclerView.adapter = realmResults?.let { RecyclerViewAdapter(this, it, autoUpdate = true) }
-
         calendar = Calendar.getInstance()
         val day = calendar.get(Calendar.DAY_OF_MONTH)
         val month = calendar.get(Calendar.MONTH)
         val year = calendar.get(Calendar.YEAR)
 
+        realm = Realm.getDefaultInstance()
+        var realmResults = realm?.where(ItemData::class.java)?.equalTo("year", year)?.equalTo("month", month + 1)?.findAll()
+        realmResults = realmResults?.sort("day")
+
+        recyclerView.layoutManager = GridLayoutManager(this, 4)
+        recyclerView.adapter = realmResults?.let { RecyclerViewAdapter(this, it, autoUpdate = true) }
+
         //新規記録 ダイアログ
         inputButton.setOnClickListener {
-
-            Log.d("月日", year.toString() + month.toString() + day.toString())
 
             var dialog  : DatePickerDialog = DatePickerDialog(this,
                 DatePickerDialog.OnDateSetListener { view, mYear, mMonth, mDay ->
@@ -56,9 +59,43 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        //検索スピナーの設置
-        val yearSpinner : Spinner = findViewById(R.id.yearSpinner)
-        val monthSpinner : Spinner = findViewById(R.id.monthSpinner)
+        //spinnerの設置
+        spinner()
+
+        yearSpinner.setOnItemSelectedListener (object : AdapterView.OnItemSelectedListener {
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+
+            }
+
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                val spinner = parent
+                spinnerYear = spinner?.selectedItem.toString().toInt()
+            }
+
+        })
+
+        monthSpinner.setOnItemSelectedListener (object : AdapterView.OnItemSelectedListener {
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+
+            }
+
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                val spinner = parent
+                spinnerMonth = spinner?.selectedItem.toString().toInt()
+            }
+        })
+
+        //検索ボタン押した時
+        searchButton.setOnClickListener {
+            realmResults = realm?.where(ItemData::class.java)?.equalTo("year", spinnerYear)?.equalTo("month", spinnerMonth)?.findAll()
+            realmResults = realmResults?.sort("day")
+            recyclerView.layoutManager = GridLayoutManager(this, 4)
+            recyclerView.adapter = realmResults?.let { RecyclerViewAdapter(this, it, autoUpdate = true) }
+
+        }
+    }
+
+    fun spinner() {
 
         ArrayAdapter.createFromResource(this, R.array.year_array, android.R.layout.simple_spinner_item)
             .also { adapter ->
@@ -71,7 +108,9 @@ class MainActivity : AppCompatActivity() {
                 adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
                 monthSpinner.adapter = adapter
             }
+
     }
+
 
     override fun onDestroy() {
         super.onDestroy()
@@ -79,3 +118,4 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
+

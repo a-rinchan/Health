@@ -57,7 +57,8 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="18dp"
             android:layout_marginEnd="40dp"
-            android:minHeight="8dp" />
+            android:minHeight="8dp"
+            android:thumb="@drawable/lucky_icon"/>
 
         <TextView
             android:id="@+id/satietyText"
@@ -76,7 +77,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
             android:layout_marginTop="18dp"
-            android:layout_marginEnd="40dp" />
+            android:layout_marginEnd="40dp"
+            android:thumb="@drawable/satiety_icon"/>
 
         <TextView
             android:id="@+id/fitnessText"
@@ -95,7 +97,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
             android:layout_marginTop="18dp"
-            android:layout_marginEnd="40dp" />
+            android:layout_marginEnd="40dp"
+            android:thumb="@drawable/fitness_icon"/>
 
         <TextView
             android:id="@+id/sleepText"
@@ -114,7 +117,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
             android:layout_marginTop="18dp"
-            android:layout_marginEnd="40dp" />
+            android:layout_marginEnd="40dp"
+            android:thumb="@drawable/sleep_icon"/>
     </LinearLayout>
 
     <ImageButton
