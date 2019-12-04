@@ -9,7 +9,11 @@ import io.realm.RealmRecyclerViewAdapter
 import java.util.*
 import java.util.concurrent.ThreadLocalRandom
 
-class RecyclerViewAdapter(private val context: Context, private val objects: OrderedRealmCollection<ItemData>, private val autoUpdate: Boolean) : RealmRecyclerViewAdapter<ItemData, RecyclerViewHolder>(objects, autoUpdate) {
+class RecyclerViewAdapter(
+    private val context: Context,
+    private val objects: OrderedRealmCollection<ItemData>,
+    private var listener: OnItemClickListener,
+    private val autoUpdate: Boolean) : RealmRecyclerViewAdapter<ItemData, RecyclerViewHolder>(objects, autoUpdate) {
 
     private val inflater = LayoutInflater.from(context)
 
@@ -36,26 +40,14 @@ class RecyclerViewAdapter(private val context: Context, private val objects: Ord
         )
 
         holder.dateTextView.text = "${items.year.toString()}/${items.month.toString()}/${items.day.toString()}"
-        holder.messageTextView.text = variationMessage(items.average)
-    }
+        holder.messageTextView.text = items.message
 
-    fun variationMessage(average : Int? ): String {
-        val messageNo0 = listOf<String>("気持ちに余裕を..!", "一日頑張ったね!", "一息ついてみよう!")
-        val messageNo1 = listOf<String>("明日はきっと楽しいよ", "湯船に浸かってみよう", "ちょっと振り返ろう")
-        val messageNo2 = listOf<String>("お疲れ様でした!", "よく頑張ったね!", "もっと良い日にしよう")
-        val messageNo3 = listOf<String>("今日もいい日だったね", "明日も頑張ろう!", "休憩する時間も取ろう")
-        val messageNo4 = listOf<String>("明日も最高な１日に!", "その調子で行こう!", "休む時間も大切にね!")
-
-        var random  =  (0 .. 2).random()
-
-        when(average){
-            0 -> return messageNo0[random]
-            1 -> return messageNo1[random]
-            2 -> return messageNo2[random]
-            3 -> return messageNo3[random]
-            4 -> return messageNo4[random]
-            else -> return "お疲れ様でした!"
+        holder.container.setOnClickListener {
+            listener.onItemClick(items)
         }
     }
 
+    interface OnItemClickListener {
+        fun onItemClick(items: ItemData)
+    }
 }

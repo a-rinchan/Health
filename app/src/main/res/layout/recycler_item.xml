@@ -10,7 +10,8 @@
     android:paddingLeft="8dp"
     android:paddingTop="10dp"
     android:paddingRight="8dp"
-    android:paddingBottom="10dp">
+    android:paddingBottom="10dp"
+    android:id="@+id/container">
 
     <ImageView
         android:id="@+id/faceImageView"

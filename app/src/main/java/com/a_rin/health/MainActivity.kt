@@ -1,15 +1,16 @@
 package com.a_rin.health
 
+import android.app.AlertDialog
 import android.app.DatePickerDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import androidx.recyclerview.widget.GridLayoutManager
 import io.realm.Realm
+import io.realm.RealmResults
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
@@ -36,8 +37,7 @@ class MainActivity : AppCompatActivity() {
         var realmResults = realm?.where(ItemData::class.java)?.equalTo("year", year)?.equalTo("month", month + 1)?.findAll()
         realmResults = realmResults?.sort("day")
 
-        recyclerView.layoutManager = GridLayoutManager(this, 4)
-        recyclerView.adapter = realmResults?.let { RecyclerViewAdapter(this, it, autoUpdate = true) }
+        realmResults?.let { recyclerView(it) }
 
         //新規記録 ダイアログ
         inputButton.setOnClickListener {
@@ -62,6 +62,7 @@ class MainActivity : AppCompatActivity() {
         //spinnerの設置
         spinner()
 
+        //年選択のスピナー
         yearSpinner.setOnItemSelectedListener (object : AdapterView.OnItemSelectedListener {
             override fun onNothingSelected(parent: AdapterView<*>?) {
 
@@ -74,6 +75,7 @@ class MainActivity : AppCompatActivity() {
 
         })
 
+        //月選択のスピナー
         monthSpinner.setOnItemSelectedListener (object : AdapterView.OnItemSelectedListener {
             override fun onNothingSelected(parent: AdapterView<*>?) {
 
@@ -89,9 +91,7 @@ class MainActivity : AppCompatActivity() {
         searchButton.setOnClickListener {
             realmResults = realm?.where(ItemData::class.java)?.equalTo("year", spinnerYear)?.equalTo("month", spinnerMonth)?.findAll()
             realmResults = realmResults?.sort("day")
-            recyclerView.layoutManager = GridLayoutManager(this, 4)
-            recyclerView.adapter = realmResults?.let { RecyclerViewAdapter(this, it, autoUpdate = true) }
-
+            realmResults?.let { recyclerView(it) }
         }
     }
 
@@ -109,6 +109,40 @@ class MainActivity : AppCompatActivity() {
                 monthSpinner.adapter = adapter
             }
 
+    }
+
+    //RecyclerViewの表示
+    fun recyclerView(realmResults : RealmResults<ItemData>) {
+        recyclerView.layoutManager = GridLayoutManager(this, 4)
+        recyclerView.adapter = realmResults?.let {
+            RecyclerViewAdapter(this, it, object : RecyclerViewAdapter.OnItemClickListener{
+                //RecyclerViewの項目タップ時
+                override fun onItemClick(items: ItemData) {
+                    items.date?.let { it -> deleateDialog(it) }
+                }
+            },autoUpdate = true) }
+    }
+
+    //RecyclerViewの項目タップ時のダイアログ
+    fun deleateDialog(date : String) {
+        AlertDialog.Builder(this) // FragmentではActivityを取得して生成
+            .setMessage("この記録を削除しますか?")
+            .setPositiveButton("Yes", { dialog, which ->
+                deleate(date)
+            })
+            .setNegativeButton("No", { dialog, which ->
+
+            })
+            .show()
+    }
+
+    //RecyclerViewのタップされたデータ消去
+    fun deleate(date : String) {
+        realm?.executeTransaction {
+            val items = realm?.where(ItemData::class.java)?.equalTo("date", date)?.findFirst()
+                ?: return@executeTransaction
+            items.deleteFromRealm()
+        }
     }
 
 
