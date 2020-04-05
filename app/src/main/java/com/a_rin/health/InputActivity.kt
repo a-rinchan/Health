@@ -181,11 +181,16 @@ class InputActivity : AppCompatActivity() {
     }
 
     fun variationMessage(average : Int? ): String {
-        val messageNo0 = listOf<String>("気持ちに余裕を..!", "一日頑張ったね!", "一息ついてみよう!")
-        val messageNo1 = listOf<String>("明日はきっと楽しいよ", "湯船に浸かってみよう", "ちょっと振り返ろう")
-        val messageNo2 = listOf<String>("お疲れ様でした!", "よく頑張ったね!", "もっと良い日にしよう")
-        val messageNo3 = listOf<String>("今日もいい日だったね", "明日も頑張ろう!", "休憩する時間も取ろう")
-        val messageNo4 = listOf<String>("明日も最高な１日に!", "その調子で行こう!", "休む時間も大切にね!")
+        val messageNo0 = listOf<String>(getString(R.string.variation_message_no0_0), getString(R.string.variation_message_no0_1), getString(
+                    R.string.variation_message_no0_2))
+        val messageNo1 = listOf<String>(getString(R.string.variation_message_no1_0), getString(R.string.variation_message_no1_1), getString(
+                    R.string.variation_message_no1_2))
+        val messageNo2 = listOf<String>(getString(R.string.variation_message_no2_0), getString(R.string.variation_message_no2_1), getString(
+                    R.string.variation_message_no2_2))
+        val messageNo3 = listOf<String>(getString(R.string.variation_message_no3_0), getString(R.string.variation_message_no3_1), getString(
+                    R.string.variation_message_no3_2))
+        val messageNo4 = listOf<String>(getString(R.string.variation_message_no4_0), getString(R.string.variation_message_no4_1), getString(
+                    R.string.variation_message_no4_2))
 
         var random  =  (0 .. 2).random()
 
@@ -195,7 +200,7 @@ class InputActivity : AppCompatActivity() {
             2 -> return messageNo2[random]
             3 -> return messageNo3[random]
             4 -> return messageNo4[random]
-            else -> return "お疲れ様でした!"
+            else -> return getString(R.string.variation_message_other)
         }
     }
 

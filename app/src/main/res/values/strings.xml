@@ -1,7 +1,29 @@
 <resources>
     <string name="app_name">Health</string>
+
+    <!-- MainActivity -->
+    <string name="main_deleate_dialog">この記録を削除しますか?</string>
+
+    <!-- InputActivity -->
     <string name="lucky_text">今日いいことあった?</string>
     <string name="satiety_text">ご飯の満足度は?</string>
     <string name="fitness_text">運動した?</string>
     <string name="sleep_text">よく寝れた?</string>
+
+    <string name="variation_message_no0_0">気持ちに余裕を..!</string>
+    <string name="variation_message_no0_1">一日頑張ったね!</string>
+    <string name="variation_message_no0_2">一息ついてみよう!</string>
+    <string name="variation_message_no1_0">明日はきっと楽しいよ</string>
+    <string name="variation_message_no1_1">湯船に浸かってみよう</string>
+    <string name="variation_message_no1_2">ちょっと振り返ろう</string>
+    <string name="variation_message_no2_0">お疲れ様でした!</string>
+    <string name="variation_message_no2_1">よく頑張ったね!</string>
+    <string name="variation_message_no2_2">もっと良い日にしよう</string>
+    <string name="variation_message_no3_0">今日もいい日だったね</string>
+    <string name="variation_message_no3_1">明日も頑張ろう!</string>
+    <string name="variation_message_no3_2">休憩する時間も取ろう</string>
+    <string name="variation_message_no4_0">明日も最高な１日に!</string>
+    <string name="variation_message_no4_1">その調子で行こう!</string>
+    <string name="variation_message_no4_2">休む時間も大切にね!</string>
+    <string name="variation_message_other">お疲れ様でした!</string>
 </resources>

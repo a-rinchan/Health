@@ -126,7 +126,7 @@ class MainActivity : AppCompatActivity() {
     //RecyclerViewの項目タップ時のダイアログ
     fun deleateDialog(date : String) {
         AlertDialog.Builder(this) // FragmentではActivityを取得して生成
-            .setMessage("この記録を削除しますか?")
+            .setMessage(getString(R.string.main_deleate_dialog))
             .setPositiveButton("Yes", { dialog, which ->
                 deleate(date)
             })
