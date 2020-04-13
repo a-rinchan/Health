@@ -6,6 +6,13 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
+/*
+ * タイトル : RecyclerViewHolder
+ * 説明 : メイン画面用のViewHolder
+ *
+ * @author Ayaka Yoshizawa
+ */
+
 class RecyclerViewHolder(var view : View) : RecyclerView.ViewHolder(view) {
 
     val container = view.findViewById<LinearLayout>(R.id.container)
