@@ -8,6 +8,13 @@ import android.content.Intent
 import android.view.animation.AlphaAnimation
 import kotlinx.android.synthetic.main.splash.*
 
+/*
+ * タイトル : SplashActivity
+ * 説明 : スプラッシュ画面を表示する
+ *
+ * @author Ayaka Yoshizawa
+ */
+
 class SplashActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
