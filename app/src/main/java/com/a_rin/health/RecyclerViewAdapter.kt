@@ -9,6 +9,13 @@ import io.realm.RealmRecyclerViewAdapter
 import java.util.*
 import java.util.concurrent.ThreadLocalRandom
 
+/*
+ * タイトル : RecyclerViewAdapter
+ * 説明 : メイン画面用のアダプター
+ *
+ * @author Ayaka Yoshizawa
+ */
+
 class RecyclerViewAdapter(
     private val context: Context,
     private val objects: OrderedRealmCollection<ItemData>,
