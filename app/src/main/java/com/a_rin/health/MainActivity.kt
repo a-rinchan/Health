@@ -14,6 +14,12 @@ import io.realm.RealmResults
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
+/*
+ * タイトル : MainActivity
+ * 説明 : 記録を表示する
+ *
+ * @author Ayaka Yoshizawa
+ */
 
 class MainActivity : AppCompatActivity() {
 
@@ -62,7 +68,7 @@ class MainActivity : AppCompatActivity() {
         //spinnerの設置
         spinner()
 
-        //年選択のスピナー
+        //年スピナーが選択された時
         yearSpinner.setOnItemSelectedListener (object : AdapterView.OnItemSelectedListener {
             override fun onNothingSelected(parent: AdapterView<*>?) {
 
@@ -75,7 +81,7 @@ class MainActivity : AppCompatActivity() {
 
         })
 
-        //月選択のスピナー
+        //月スピナーが選択された時
         monthSpinner.setOnItemSelectedListener (object : AdapterView.OnItemSelectedListener {
             override fun onNothingSelected(parent: AdapterView<*>?) {
 
@@ -87,13 +93,17 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
-        //検索ボタン押した時
+        //検索ボタン押した際に任意の月の記録を再表示
         searchButton.setOnClickListener {
             realmResults = realm?.where(ItemData::class.java)?.equalTo("year", spinnerYear)?.equalTo("month", spinnerMonth)?.findAll()
             realmResults = realmResults?.sort("day")
             realmResults?.let { recyclerView(it) }
         }
     }
+
+    /**
+     * @Discription スピナーの設定
+     */
 
     fun spinner() {
 
@@ -111,7 +121,11 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    //RecyclerViewの表示
+    /**
+     * @Description RecyclerViewの表示
+     * @param realmResults : メイン画面に表示したい記録データ
+     */
+
     fun recyclerView(realmResults : RealmResults<ItemData>) {
         recyclerView.layoutManager = GridLayoutManager(this, 4)
         recyclerView.adapter = realmResults?.let {
@@ -123,7 +137,11 @@ class MainActivity : AppCompatActivity() {
             },autoUpdate = true) }
     }
 
-    //RecyclerViewの項目タップ時のダイアログ
+    /**
+     * @Description RecyclerViewの項目タップ時のダイアログ
+     * @param date : 日付
+     */
+
     fun deleateDialog(date : String) {
         AlertDialog.Builder(this) // FragmentではActivityを取得して生成
             .setMessage(getString(R.string.main_deleate_dialog))
@@ -136,7 +154,11 @@ class MainActivity : AppCompatActivity() {
             .show()
     }
 
-    //RecyclerViewのタップされたデータ消去
+    /**
+     * @Description RecyclerViewのタップされたデータ消去
+     * @param date : 日付(キー)
+     */
+
     fun deleate(date : String) {
         realm?.executeTransaction {
             val items = realm?.where(ItemData::class.java)?.equalTo("date", date)?.findFirst()
