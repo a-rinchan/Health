@@ -9,7 +9,16 @@ import kotlinx.android.synthetic.main.activity_input.*
 import java.text.SimpleDateFormat
 import java.util.*
 
+/*
+ * タイトル : InputActivity
+ * 説明 : 気分の入力と保存を行う
+ *
+ * @author Ayaka Yoshizawa
+ */
+
+// SeekBarのボリュームサイズ
 const val seekbarAmount = 4
+// SeekBarのボリューム初期値
 const val seekbarInitialValue = 0
 
 class InputActivity : AppCompatActivity() {
@@ -136,6 +145,10 @@ class InputActivity : AppCompatActivity() {
 
     }
 
+    /**
+     * @Description SeekBarの初期化
+     */
+
     fun SeekbarInitialization(seekbar : SeekBar) {
         //seekbar初期値
         seekbar.setProgress(0)
@@ -143,7 +156,11 @@ class InputActivity : AppCompatActivity() {
         seekbar.setMax(4)
     }
 
-    //Realmで保存
+    /**
+     * @Description Realmを使用し、データ保存を行う
+     * @param date : 日付(キー), inputYear : 記録する年, inputMonth : 記録する月, inputDay : 記録する日時, luckyValue : 今日のいいことの値, satietyValue : 満腹度の値, fitnessValue : 運動の値, sleepValue : 睡眠の値
+     */
+
     fun saveRealm(date : String?, inputYear : Int?, inputMonth : Int?, inputDay : Int?,luckyValue : Int, satietyValue : Int, fitnessValue : Int, sleepValue : Int) {
         //画像を切り替えるためにaveraveの値を計算
         val average = (luckyValue + satietyValue + fitnessValue + sleepValue) / seekbarAmount
@@ -163,8 +180,13 @@ class InputActivity : AppCompatActivity() {
         }
     }
 
-    //更新時
+    /**
+     * @Description 記録の更新を行う
+     * @param date : 記録する日時(キーとして利用), luckyValue : 今日のいいことの値, satietyValue : 満腹度の値, fitnessValue : 運動の値, sleepValue : 睡眠の値
+     */
+
     fun updateRealm(date: String?, luckyValue : Int, satietyValue : Int, fitnessValue : Int, sleepValue : Int) {
+        //気分度
         val average = (luckyValue + satietyValue + fitnessValue + sleepValue) / seekbarAmount
 
         realm?.executeTransaction{
@@ -179,6 +201,11 @@ class InputActivity : AppCompatActivity() {
             it.copyToRealm(itemData)
         }
     }
+
+    /**
+     * @Description 気分度によって、メッセージをランダムに決定する
+     * @param average : 気分度
+     */
 
     fun variationMessage(average : Int? ): String {
         val messageNo0 = listOf<String>(getString(R.string.variation_message_no0_0), getString(R.string.variation_message_no0_1), getString(
